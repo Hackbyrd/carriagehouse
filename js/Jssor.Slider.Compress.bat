@@ -1,0 +1,2 @@
+"..\tool\Jssor.Compress.exe" -JS -OVERWRITE -ENCOUT:UTF-8 -NOREMOVE:Member -NOREMOVE:GlobalVariable -NORENAME:Member "Jssor.Core.js" "Jssor.Debug.js" "Jssor.EventManager.js" "Jssor.Point.js" "Jssor.Utils.js" "Jssor.Easing.js" "Jssor.Navigator.js" "Jssor.CaptionSlider.js" "Jssor.Slider.js" "Jssor.ThumbnailNavigator.js" -OUT "Jssor.Slider.Min.js"
+PAUSE

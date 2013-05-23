@@ -1,0 +1,170 @@
+body{
+	background-image: url("images/background2.jpg");
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    text-align: center;
+    font-family: Cambria, serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: normal;
+    line-height: 1.4em;
+    text-transform:;
+}
+
+.container {
+	margin: 0px auto 0px auto;
+	width: 1100px;
+	text-align: center;
+	min-height: 100px;
+}
+
+.navigation-bar {
+	width: 1000px;
+	height: 60px;
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+.info a.back{
+	position: absolute;
+	bottom:20px;
+	left:10px;
+	text-decoration:none;
+	color:#603d05;
+	text-shadow:1px 1px 1px #fff;
+	font-weight:bold;
+}
+.info a.back:hover{
+	color:#000;
+}
+#header{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:180px;
+    height:395px;
+    background:transparent url(images/title.png) no-repeat top left;
+}
+.content{
+    width:1000px;
+    min-height:600px;
+    margin: 0px auto 0px auto;
+    padding: 0px 50px 50px 50px;
+    background:transparent url(images/bg.gif) no-repeat bottom;
+    background-size: 1100px 100%;
+    text-align: center;
+}
+.content h1, h3{
+    color:#7F6137;
+    text-shadow:1px 1px 1px #fff;
+}
+.content p{
+    margin:10px auto 10px auto;
+}
+.content .text{
+    padding:300px 0px 0px 100px;
+}
+ul#navigation {
+    margin: 0px;
+    padding: 0px;
+    top: 0px;
+    right: 200px;
+    list-style: none;
+    z-index:999999;
+}
+ul#navigation li {
+    display:inline;
+    float:right;
+    width:100px;
+    margin-left:1px;
+
+}
+ul#navigation li a {
+    display: block;
+    font-weight:bold;
+    text-shadow:1px 1px 1px #fff;
+    float:left;
+    width: 100px;
+    height: 35px;
+    color:#603d05;
+    background:transparent url(images/item.png) no-repeat bottom right;
+    text-decoration:none;
+    text-align:center;
+    padding-top:80px;
+    margin-top: -40px;
+    cursor:pointer;
+
+}
+ul#navigation li a:hover{
+
+}
+
+.image-style {
+	border-radius: 3px; 
+}
+
+.line {
+	width: 900px;
+	height: 1px;
+	background-color: black;
+	margin: 0px auto 10px auto;
+}
+
+.box {
+	width: 290px;
+	padding: 10px 20px 20px 20px;
+	min-height: 50px;
+	background-color: ;
+	float: left;
+}
+
+.box-container {
+	width: 1000px;
+	min-height: 50px;
+	overflow: auto;
+}
+
+.box2-left {
+	width: 600px;
+	padding-top: 40px;
+	min-height: 50px;
+	background-color: ;
+	float: left;
+}
+
+.box2-right {
+	width: 350px;
+	padding: 50px 0px 0px 0px;
+	min-height: 50px;
+	background-color: ;
+	float: left;
+	text-align: left;
+}
+	
+.box2-container {
+	width: 1000px;
+	min-height: 50px;
+	overflow: auto;
+}
+
+.events-container {
+    width: 800px;
+    min-height: 100px;
+    overflow: auto;
+    margin: 30px auto 30px auto;
+}
+
+.events-box-left {
+    width: 500px;
+    min-height: 100px;
+    float: left;
+}
+.events-box-right {
+    width: 260px;
+    min-height: 100px;
+    padding:0px 20px;
+    float: left;
+}
